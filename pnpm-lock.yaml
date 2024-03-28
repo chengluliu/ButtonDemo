@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2
   '@nutui/nutui-react-taro':
-    specifier: ^2.3.11
-    version: 2.3.11(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.5.0
+    version: 2.5.0(react-dom@18.2.0)(react@18.2.0)
   '@tarojs/components':
     specifier: 3.6.23
     version: 3.6.23(@tarojs/helper@3.6.23)(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(@types/react@18.2.60)(postcss@8.4.35)(react@18.2.0)
@@ -1931,8 +1931,8 @@ packages:
     resolution: {integrity: sha512-qn5rBdsPleejZ+5u/gTUoi9vPY32UCTnpxuArha1ZL7LS+kk/5E1ECKLDv0Sh5q87PaCpYfe9wMyGENREnHBgw==}
     dev: false
 
-  /@nutui/nutui-react-taro@2.3.11(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-mh7WySdzdCjgThz/zSoFHZcZWXTE/cRRnMmyx6oYqbJHY2LHmPxaQYY/n0uA7on2F0DVcSQkcQrNMYPaYZ+CLw==}
+  /@nutui/nutui-react-taro@2.5.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-w43mzzgS4aF2MtFxdauPYzMTZKGTvjPDlBLjtmn3Tu28EBTbAY29KYuSv1qIb9C7hh9N2qBpieH/0/g9JgNr+A==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -8804,8 +8804,8 @@ packages:
     resolution: {integrity: sha512-OJB2uVAfhycX4teG/zEVpoThushQqLOx946XACDpVc6OQydiJWjn7djVzvNCbv0VOA7sbHGPQp/RkXD9vMCDEw==}
     dev: true
 
-  /miniprogram-compiler@0.2.2:
-    resolution: {integrity: sha512-fiJXv/15jCcRAU8YKcO7S7fkPKLa5ZBgpLN+d6B3r3KMktM5tAkDEQ+zm6aTfNoHurYOHcRyPyGf26gqQXlFXg==}
+  /miniprogram-compiler@0.2.3:
+    resolution: {integrity: sha512-/MfFiXTBUwYxnrTbj1hgwk1+qGkMCTL1zi8IReOq/0SPVkUxpx19E89w+ohYCELFXkMfVbD+6ejrHh3Y1u5sVg==}
     dependencies:
       glob: 7.2.3
       unescape-js: 1.1.4
@@ -8821,7 +8821,7 @@ packages:
       csso: 3.5.1
       j-component: 1.4.9
       less: 3.13.1
-      miniprogram-compiler: 0.2.2
+      miniprogram-compiler: 0.2.3
       postcss: 7.0.39
       pretty-format: 26.6.2
     dev: true
