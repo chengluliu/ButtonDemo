@@ -43,7 +43,7 @@ const Demo = () => {
     </div>
 
     <div className={'div_box'}>
-      动作面板:
+      动作面板: 点击按钮可看到弹出框右侧样式出问题
       <Cell onClick={() => setIsVisible(!isVisible)}>
         <span>基础用法</span>
       </Cell>
